@@ -11,3 +11,26 @@ author = inquirer.text(message="Author name:").execute()
 contact = inquirer.text(message="Contact information:").execute()
 
 print(title, description, instructions, usage, license_type, author, contact)
+
+content = f"""# {title}
+
+## Description:
+{description}
+
+## Installation instructions:
+{instructions}
+
+## Usage information:
+{usage}
+
+## License:
+{license_type}
+
+## Author name:
+{author}
+
+## Contact information:
+{contact}  """
+
+with open("README.md", "w") as file:
+        file.write(content)
