@@ -6,21 +6,39 @@ def generate_readme(answers):
         content = f"""# {answers["title"]}
 
 ## Description:
+
 {answers["description"]}
 
+---
+
 ## Installation instructions:
+
+```
 {answers["instructions"]}
+```
+
+---
 
 ## Usage information:
+
 {answers["usage"]}
 
+---
+
 ## License:
+
 {answers["license"]}
 
+---
+
 ## Author name:
+
 {answers["author"]}
 
+---
+
 ## Contact information:
+
 {answers["contact"]}"""
 
 # Creation of README.md + addition of input

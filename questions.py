@@ -4,8 +4,8 @@ from InquirerPy import inquirer
 class Questions:
     def ask(self):
         self.title = inquirer.text(message="Project Title:").execute()
-        self.description = inquirer.text(message="Project description:").execute()
-        self.instructions = inquirer.text(message="Installation instructions:").execute()
+        self.description = inquirer.text(message="Project description:", multiline=True).execute()
+        self.instructions = inquirer.text(message="Installation instructions:", multiline=True).execute()
         self.usage = inquirer.text(message="Usage information:").execute()
         self.license_type = inquirer.select(message="License", choices=["MIT", "Apache 2.0", "GPL 3.0"]).execute()
         self.author = inquirer.text(message="Author name:").execute()
