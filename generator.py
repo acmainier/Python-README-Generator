@@ -43,10 +43,10 @@ def generate_readme(answers):
 
 # Creation of README.md + addition of input
 
-        with open("README.md", "w") as file:
+        with open("GENERATED_README.md", "w") as file:
             file.write(content)
 
 # Creation of README.md file path
 
-        path = os.path.abspath("README.md")
+        path = os.path.abspath("GENERATED_README.md")
         return path
