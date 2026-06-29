@@ -8,6 +8,7 @@ The script can be run locally, with input prompt in the Terminal directly, endin
 ### Link
 
 - Repository: [https://github.com/acmainier/Python-README-Generator](https://github.com/acmainier/Python-README-Generator)
+- Demo: [https://www.loom.com/share/ada0479397034ad29904b72e945e1c76](https://www.loom.com/share/ada0479397034ad29904b72e945e1c76)
 
 ## Built with
 
